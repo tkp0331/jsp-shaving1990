@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jsp_shaving1990"
-version = "0.1.01"
+version = "0.1.2"
 description = "J, Carlier.らの1990年の論文を実装したもの"
 repository = "https://github.com/tkp0331/jsp-shaving1990"
 authors = ["鈴木貴大 <merioda.seven.24@gmail.com>"]

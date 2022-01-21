@@ -38,7 +38,7 @@ def iterated_shaving(r_list: List[int], p_list: List[int], q_list: List[int], UB
     return new_r_list
 
 
-def iterated_full_shaving(r_list: List[int], p_list: List[int], q_list: List[int], UB: int) -> Tuple[list, list, list]:
+def iterated_full_shaving(r_list: List[int], p_list: List[int], q_list: List[int], UB: int) -> Tuple[List[int], List[int], List[int]]:
     pre_r_list, new_r_list, pre_q_list, new_q_list = list(), r_list, list(), q_list
     while pre_r_list != new_r_list or pre_q_list != new_q_list:
         shaved_r_list = iterated_shaving(new_r_list, p_list, new_q_list, UB)
