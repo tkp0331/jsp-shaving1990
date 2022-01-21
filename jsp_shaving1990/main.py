@@ -1,8 +1,8 @@
 import jps_algo
 from typing import List, Optional, Tuple
 
-from utils import asc_set
-from utils import sort
+from .utils import asc_set
+from .utils import sort
 
 
 def shaving(r_list: List[int], p_list: List[int], q_list: List[int], UB: int) -> List[int]:
